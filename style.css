@@ -64,3 +64,24 @@ body{
     width: 35%;
     margin: 0 0.5rem;
 }
+li{
+    list-style: none;
+    font-size: 1.15rem;
+    padding: 1.2rem;
+}
+li:hover{
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+.content{
+    display: flex;
+}
+.list{
+    /* border: 2px solid red; */
+    width: 17%;
+    border-right: 1px solid gray;
+    height: 100vh;
+}
+.list i{
+    margin: 0 1.5rem;
+}
