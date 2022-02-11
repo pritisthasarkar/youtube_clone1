@@ -92,6 +92,13 @@ li:hover{
 .videos>div{
     width: 26%;
     margin: 2rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.videos>div:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: rgb(211, 211, 211);
 }
 .videos img{
     width: 100%;
