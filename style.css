@@ -89,9 +89,21 @@ li:hover{
 .list i{
     margin: 0 1.5rem;
 }
-.videos div{
-    width: 30%;
+.videos>div{
+    width: 25%;
+    margin: 2rem;
 }
 .videos img{
     width: 100%;
+}
+.videos{
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+}
+.videos>div>div{
+    font-size: 1.5rem;
+    margin-top: 0.5rem
 }
